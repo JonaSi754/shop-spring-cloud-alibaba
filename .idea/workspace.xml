@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c29533-5f1f-48a3-adfa-b7daf136c96e" name="Changes" comment="" />
+    <list default="true" id="09c29533-5f1f-48a3-adfa-b7daf136c96e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/ProductServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/UserServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV3Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV4Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV5Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV6Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/config/LoadBalanceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/config/LoadBalanceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV1Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/OrderStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/OrderStarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/config/LoadBalanceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/config/LoadBalanceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceImpl.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +42,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,6 +69,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
     "last_opened_file_path": "/Users/sijinghua/WorkSpace/code/Java/shop-springcloud-alibaba",
@@ -48,11 +77,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2544803",
-    "settings.editor.selected.configurable": "SQL Dialects",
-    "spring.configuration.checksum": "727a570d599e7cb8478e8492e85e0c6a",
+    "settings.editor.selected.configurable": "preferences.sourceCode.YAML",
+    "spring.configuration.checksum": "e52f8af782d8889ccc32d0bd3888831d",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -65,6 +95,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.sijinghua.shop" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sijinghua.shop.order.service.impl" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -73,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserStarter">
+  <component name="RunManager" selected="Spring Boot.OrderStarter">
     <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sijinghua.shop.product.controller.ProductController" />
       <module name="shop-product" />
@@ -129,6 +162,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductStarter2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sijinghua.shop.ProductStarter" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8071" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.sijinghua.shop.UserStarter" />
@@ -142,11 +185,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserStarter2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="shop-user" />
+      <selectedOptions>
+        <option name="spring.boot.profiles" visible="false" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sijinghua.shop.UserStarter" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8061" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProductController" />
+      <item itemvalue="JUnit.SnowFlakeFactoryTest.testCreateId" />
+      <item itemvalue="Spring Boot.UserStarter2" />
+      <item itemvalue="Spring Boot.ProductStarter2" />
+      <item itemvalue="Spring Boot.OrderStarter" />
+      <item itemvalue="Spring Boot.ProductStarter" />
+      <item itemvalue="Spring Boot.UserStarter" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrderStarter" />
-        <item itemvalue="Spring Boot.ProductStarter" />
         <item itemvalue="Spring Boot.UserStarter" />
+        <item itemvalue="Spring Boot.ProductStarter" />
         <item itemvalue="Application.ProductController" />
         <item itemvalue="JUnit.SnowFlakeFactoryTest.testCreateId" />
       </list>
@@ -163,7 +228,10 @@
       <workItem from="1677497945027" duration="21634000" />
       <workItem from="1677806495232" duration="5072000" />
       <workItem from="1677833044035" duration="1683000" />
-      <workItem from="1677844533033" duration="35819000" />
+      <workItem from="1677844533033" duration="38719000" />
+      <workItem from="1678891850372" duration="7774000" />
+      <workItem from="1679116320794" duration="623000" />
+      <workItem from="1679192446841" duration="49930000" />
     </task>
     <servers />
   </component>
