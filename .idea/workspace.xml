@@ -17,6 +17,20 @@
       <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV4Impl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV5Impl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV6Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/ProductServiceFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/UserServiceFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV1Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV2Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV3Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV4Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV5Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV6Impl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" afterDir="false" />
@@ -231,7 +245,7 @@
       <workItem from="1677844533033" duration="38719000" />
       <workItem from="1678891850372" duration="7774000" />
       <workItem from="1679116320794" duration="623000" />
-      <workItem from="1679192446841" duration="49930000" />
+      <workItem from="1679192446841" duration="50554000" />
     </task>
     <servers />
   </component>
