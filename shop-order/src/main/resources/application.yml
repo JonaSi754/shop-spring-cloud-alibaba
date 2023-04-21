@@ -49,7 +49,7 @@ spring:
     sentinel:
       transport:
         port: 9999  # 指定和Sentinel控制台交互的端口，任意指定一个未被占用的即可
-        dashboard: localhost:8888  # Sentinel控制台服务地址
+        dashboard: 127.0.0.1:8888  # Sentinel控制台服务地址
 
 feign:
   sentinel:

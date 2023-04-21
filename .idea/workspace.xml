@@ -5,44 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c29533-5f1f-48a3-adfa-b7daf136c96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/ProductServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/UserServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV3Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV4Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV5Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV6Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/ProductServiceFallBack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/UserServiceFallBack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/ProductServiceFallBackFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/feign/fallback/factory/UserServiceFallBackFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV1Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV2Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV3Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV4Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV5Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceV6Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/org/sijinghua/shop/GatewayStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/java/org/sijinghua/shop/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-nacos-simple.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-nacos.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application-simple.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/OrderStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/config/LoadBalanceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/config/LoadBalanceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/java/org/sijinghua/shop/order/service/impl/OrderServiceV1Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/OrderStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/OrderStarter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/config/LoadBalanceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/config/LoadBalanceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order/target/classes/org/sijinghua/shop/order/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/src/main/java/org/sijinghua/shop/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/src/main/java/org/sijinghua/shop/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/org/sijinghua/shop/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-user/target/classes/org/sijinghua/shop/user/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,37 +52,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "/Users/sijinghua/WorkSpace/code/Java/shop-springcloud-alibaba",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2544803",
-    "settings.editor.selected.configurable": "preferences.sourceCode.YAML",
-    "spring.configuration.checksum": "e52f8af782d8889ccc32d0bd3888831d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sijinghua/WorkSpace/code/Java/shop-springcloud-alibaba&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2544803&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8f25ac69d73a52fa9d7ee37eae9161b9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-gateway/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.sijinghua.shop" />
     </key>
@@ -120,13 +100,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderStarter">
-    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sijinghua.shop.product.controller.ProductController" />
-      <module name="shop-product" />
+  <component name="RunManager" selected="Spring Boot.GatewayStarter">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sijinghua.shop.order.service.impl.Main" />
+      <module name="shop-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sijinghua.shop.product.controller.*" />
+          <option name="PATTERN" value="org.sijinghua.shop.order.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,18 +114,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnowFlakeFactoryTest.testCreateId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shop-utils" />
+    <configuration name="GatewayStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sijinghua.shop.GatewayStarter" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.app.type=1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sijinghua.shop.utils.test.*" />
+          <option name="PATTERN" value="org.sijinghua.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.sijinghua.shop.utils.test" />
-      <option name="MAIN_CLASS_NAME" value="org.sijinghua.shop.utils.test.SnowFlakeFactoryTest" />
-      <option name="METHOD_NAME" value="testCreateId" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,21 +191,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProductController" />
-      <item itemvalue="JUnit.SnowFlakeFactoryTest.testCreateId" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.UserStarter2" />
       <item itemvalue="Spring Boot.ProductStarter2" />
+      <item itemvalue="Spring Boot.GatewayStarter" />
       <item itemvalue="Spring Boot.OrderStarter" />
       <item itemvalue="Spring Boot.ProductStarter" />
       <item itemvalue="Spring Boot.UserStarter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderStarter" />
+        <item itemvalue="Spring Boot.GatewayStarter" />
         <item itemvalue="Spring Boot.UserStarter" />
         <item itemvalue="Spring Boot.ProductStarter" />
-        <item itemvalue="Application.ProductController" />
-        <item itemvalue="JUnit.SnowFlakeFactoryTest.testCreateId" />
+        <item itemvalue="Spring Boot.OrderStarter" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +223,11 @@
       <workItem from="1677844533033" duration="38719000" />
       <workItem from="1678891850372" duration="7774000" />
       <workItem from="1679116320794" duration="623000" />
-      <workItem from="1679192446841" duration="50554000" />
+      <workItem from="1679192446841" duration="84680000" />
+      <workItem from="1682004442504" duration="598000" />
+      <workItem from="1682042443824" duration="17000" />
+      <workItem from="1682042469700" duration="676000" />
+      <workItem from="1682043567808" duration="1418000" />
     </task>
     <servers />
   </component>
