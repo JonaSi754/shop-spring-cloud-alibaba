@@ -38,8 +38,6 @@ public class GatewayConfig {
 
     private final ServerCodecConfigurer serverCodecConfigurer;
 
-    private static int callNum = 0;
-
     @Value("${spring.cloud.gateway.discovery.locator.route-id-prefix}")
     private String routeIdPrefix;
 
@@ -115,7 +113,7 @@ public class GatewayConfig {
         // 传入资源名称生成GatewayFlowRule
         GatewayFlowRule gatewayFlowRule = new GatewayFlowRule(resource);
         // 限流阈值
-        gatewayFlowRule.setCount(1);
+        gatewayFlowRule.setCount(2);
         // 统计时间窗口，单位为(s)
         gatewayFlowRule.setIntervalSec(1);
         return gatewayFlowRule;
@@ -130,7 +128,7 @@ public class GatewayConfig {
             public Mono<ServerResponse> handleRequest(ServerWebExchange serverWebExchange, Throwable throwable) {
                 Map map = new HashMap<>();
                 map.put("code", 1001);
-                map.put("codeMsg", "接口被限流了" + ++callNum + "次");
+                map.put("codeMsg", "接口被限流了");
                 return ServerResponse.status(HttpStatus.OK)
                         .contentType(MediaType.APPLICATION_JSON_UTF8)
                         .body(BodyInserters.fromObject(map));
