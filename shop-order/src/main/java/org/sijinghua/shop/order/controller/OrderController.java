@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @Autowired
-    @Qualifier(value = "OrderServiceV6")
+    @Qualifier(value = "OrderServiceV7")
     private OrderService orderService;
 
     @GetMapping(value = "/submit_order")
